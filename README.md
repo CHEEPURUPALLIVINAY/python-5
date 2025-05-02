@@ -1,1 +1,6 @@
-# python-5
+# nested 
+info={
+    'vinay':{"salary":120000,"perks":30000},
+    'mark':{"salary":180000,"perks":50000},
+}
+print(info['mark']['perks'])
